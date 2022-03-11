@@ -1,0 +1,53 @@
+body{
+  line-height: 1.8;
+  margin: 0;
+}
+
+.banner{
+  background-image: url(https://images.unsplash.com/photo-1454123253751-1fe2b9e0c10d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.banner p{
+  color: FFF5E6;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1{
+  font-family: "montserrat";
+  font-size: 38px;
+  font-weight: bold;
+}
+
+h2{
+  color: A0A0A0;
+  font-family: "montserrat";
+}
+
+.card p{
+  font-family: "lora";
+  font-size: 18px;
+  color: #494949;
+}
+
+#link-gradient{
+  background-image: linear-gradient(160deg, #d3eef4 0%, #f1eec8 100%);
+}
+
+#link-gradient:hover{
+  background-image: linear-gradient(160deg, #b2e7f3 0%, #f3eeaa 100%);
+}
+a{
+  font-size: 25px;
+  color: #494949;
+  font-style: italic;
+  font: "lora";
+}
